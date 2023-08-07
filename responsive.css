@@ -1,0 +1,137 @@
+@media (max-width: 1300px) {
+    .header {
+      border-bottom: none;
+    }
+  }
+  
+  @media (max-width: 935px) {
+    .menu {
+      /* display: none; */
+      max-height: 0;
+      overflow: hidden;
+      position: absolute;
+      background-color: #2a2a2a;
+      text-align: center;
+      right: 0;
+      left: 0;
+      margin-top: 20px;
+    }
+    #checkbox_toggle:checked ~ .menu {
+      display: block;
+      max-height: 100%;
+      transition: all 0.5s;
+    }
+    .burger {
+      display: block;
+      padding: 20px 0;
+    }
+    .parent{
+      display: grid;
+      grid-template-columns: 100%;
+    }
+  }
+
+
+
+  @media(max-width:1200px) {
+    .title{
+        margin-left:30% ;
+    }
+    
+    .subTitle{
+        margin-top:10%;
+        margin-left:30% ;
+    }
+ 
+  }
+
+  @media(max-width:992px) {
+    .title{
+        margin-left:30% ;
+    }
+    
+    .subTitle{
+        width: 340px;
+        height: auto;
+        margin-left:30% ;
+    }
+    .sub_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title_blue{
+        width: 120px;
+        height: 100px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .title_green{
+        width: 120px;
+        height: 100px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .title_yellow{
+        width: 120px;
+        height: 100px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .title_red{
+        width: 120px;
+        height: 100px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+  }
+
+
+
+  @media(max-width:768px) {
+    
+    .title{
+        margin-left:10% ;
+    }
+    
+    .subTitle{
+        margin-left:10% ;
+        margin-top:10%;
+    }
+  }
+  @media(max-width:500px) {
+    .subTitle{
+        margin-left:3% ;
+    }
+  }
+  @media(max-width:470px) {
+    
+    .title{
+       display: none;
+    }
+    
+    
+    .subTitle{
+        width: 80%;
+    }
+    
+    .subTitle_ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .title_blue{width: 90%;
+        text-align: center;}
+
+        .title_green{
+            width: 90%;
+        text-align: center;
+        }
+    .title_yellow{
+        width: 90%;
+        text-align: center;
+    }
+    .title_red{
+        width: 90%;
+        text-align: center;
+    }
+  }
